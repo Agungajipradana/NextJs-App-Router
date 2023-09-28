@@ -1,9 +1,9 @@
-import Navbar from "./navbar";
+import Navbar from "../../navbar";
 
 export default function ProfilePage() {
   return (
     <>
-      <Navbar />
+      <h1>Profile Page</h1>
     </>
   );
 }
