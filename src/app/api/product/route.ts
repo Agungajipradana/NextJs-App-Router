@@ -3,13 +3,15 @@ import { NextRequest, NextResponse } from "next/server";
 const data = [
   {
     id: 1,
-    name: "Sepatu Baru",
+    title: "Nike Air Max 1",
     price: 100000,
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f24f923e-f60e-4f65-950d-4591039e8270/air-max-97-shoes-fDLnh1.png",
   },
   {
     id: 2,
-    name: "Baju Baru",
+    title: "Nike Air Max 2",
     price: 50000,
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f24f923e-f60e-4f65-950d-4591039e8270/air-max-97-shoes-fDLnh1.png",
   },
 ];
 
